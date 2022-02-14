@@ -42,6 +42,28 @@ button{
 .container-up p { 
 
 }
+#c3{
+    cursor: pointer;
+
+}
+#b3{
+    cursor: pointer;
+}
+#a3{
+    cursor: pointer;
+}
+
+
+#c3:hover{
+    color: #3A69D2;
+
+}
+#b3:hover{
+    color: #3A69D2;
+}
+#a3:hover{
+    color: #3A69D2;
+}
 .btn_remove{
 cursor: pointer;
 font-size: 80%;
