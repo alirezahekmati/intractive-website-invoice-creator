@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container-up">
+        <h1>Invoice creator</h1>
+        <p>Thanks for choosing GoodCorp,LLCI</p>
+
+    </div>
+    <div class="container-down">
+        <div class="task-buttons">
+            <button onclick="addWash()" class="Wash_Car">Wash Car: $10</button>
+            <button onclick="addMow()" class="Mow_Lawn">Mow Lawn: $20</button>
+            <button onclick="addPul()" class="Pul_Weeds">Pul Weeds: $30</button>
+        </div>
+        <div class="task-factor">
+            <div class="left">
+                <div>
+                    task
+                </div>
+               
+                <br>
+                <div>
+
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    totol
+                </div>
+                
+                <br>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="task-total">
+            <div class="left">
+                Notes
+            </div>
+            <div class="right">
+                Totol Amount <br><span>$0</span> 
+            </div>
+
+        </div>
+        <button onclick="sendOrder()" class="send">Send Invoice</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

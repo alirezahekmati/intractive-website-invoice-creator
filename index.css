@@ -1,0 +1,168 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 500px;
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #1F2937;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.container-up { 
+    width: 100%;
+    height: 25%;
+    color: white;
+    background: #3A69D2;
+    text-align: center;
+    padding: 40px 0 0 0;
+    font-size: 150%;
+    
+   
+}
+
+.container-up h1 { 
+    margin: 0;
+}
+
+.container-up p { 
+
+}
+.btn_remove{
+cursor: pointer;
+font-size: 80%;
+color: grey;
+}
+.btn_remove:hover{
+    color:#3A69D2;
+    
+}
+.list-margin-top-5{
+    margin: 15px 0 0 0 ;
+}
+.list-margin-top-10{
+    margin: 10px 10px 0 0 ;
+}
+
+.list-margin-top-15{
+    margin: 15px 0 0 0 ;
+}
+.list-margin-top-20{
+    margin: 20px 0 0 0 ;
+}
+.container-down { 
+    background: #1F2937;
+    color: white;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding:40px 0 0 0 ;
+    min-width: 500px;
+    
+    
+}
+
+.container-down .task-buttons { 
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+    /* padding: 20px 400px; */
+    min-width: 400px;
+    margin: 20px 0;
+}
+.container-down .task-buttons button:hover{
+    border:1px solid white;
+}
+.container-down .task-buttons button { 
+    background: #D5D4D8;
+    color: #4A4E74;
+    padding: 10px 15px ;
+
+}
+
+
+.container-down .task-factor { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+    margin:10px 0 30px 0;
+
+}
+
+.container-down .task-factor .left { 
+
+}
+
+.container-down .task-factor .left div { 
+
+}
+
+.container-down .task-factor .right { 
+
+}
+
+.container-down .task-factor .right div { 
+
+}
+
+.container-down hr { 
+    width: 80%;
+}
+
+.container-down .task-total { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+
+}
+
+.container-down .task-total .left { 
+
+}
+
+.container-down .task-total .right { 
+
+}
+
+.container-down .task-total .right br { 
+
+}
+
+.container-down .task-total .right span { 
+    font-size: 200%;
+
+}
+
+.container-down .send { 
+    width: 80%;
+    background:  #3A69D2;
+    color: white;
+    padding: 6px 0;
+    margin: 20px 0 0 0 ;
+    
+
+}
+.send:hover{
+    box-shadow: 0px 0px 15px 1px #3A69D2;
+}
